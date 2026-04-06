@@ -1,0 +1,19 @@
+body {
+  background-color: lightgray;
+}
+.row {
+  font-size: 46px;
+}
+.faction {
+  font-size: 22px;
+}
+.soldierAmount{
+  background-color: white;
+  font-size: 22px;
+}
+.center {
+margin: auto;
+width: 50%;
+border: 3px solid darkgray;
+padding: 10px;
+}
