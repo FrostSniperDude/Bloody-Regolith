@@ -3,9 +3,9 @@ import {
   rightPressed,
   downPressed,
   leftPressed,
-} from "../Bloody-Regolith/keyHandler.js";
-import { canMoveTo, move } from "../Bloody-Regolith/main.js";
-import { moveTo } from "./Bloody-Regolith/ai.js";
+} from "../keyHandler.js";
+import { canMoveTo, move } from "../main.js";
+import { moveTo } from "../ai.js";
 
 class Player {
   constructor(x, y) {

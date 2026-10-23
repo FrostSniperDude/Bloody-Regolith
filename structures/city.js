@@ -1,4 +1,4 @@
-import { getRandomCityName } from "../Bloody-Regolith/generator.js";
+import { getRandomCityName } from "../generator.js";
 
 class City {
   constructor(x, y, faction) {

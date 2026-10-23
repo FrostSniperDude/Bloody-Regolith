@@ -8,7 +8,7 @@ import {
   removeSelfWorld,
 } from "../../main.js";
 
-import { getFaction } from "../Bloody-Regolith/factionHandler.js";
+import { getFaction } from "../factionHandler.js";
 
 function getNearest(
   executingEntity,
