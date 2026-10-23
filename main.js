@@ -1,14 +1,14 @@
-import { textures } from "./textures.js";
+import { textures } from "./Bloody-Regolith/textures.js";
 import { inputCommand, inputLine, clearConsole} from "./consoleHandler.js";
-import { Player } from "./entities/player.js";
-import { City } from "./structures/city.js";
-import { reset } from "./keyHandler.js";
+import { Player } from "./Bloody-Regolith/entities/player.js";
+import { City } from "./Bloody-Regolith/structures/city.js";
+import { reset } from "./Bloody-Regolith/keyHandler.js";
 import {
   getRandomHumanName,
   getRandomCorporationName,
   getRandomPlanetName,
 } from "./generator.js";
-import { executeAction } from "./actionExecutor.js";
+import { executeAction } from "./Bloody-Regolith/actionExecutor.js";
 import {
   wipeFactions,
   addFaction,
@@ -16,10 +16,10 @@ import {
   addEnemyFactions,
   hasLost,
   hasWon,
-} from "./factionHandler.js";
+} from "./Bloody-Regolith/factionHandler.js";
 import {
   startMusic
-} from "./musicHandler.js"
+} from "./Bloody-Regolith/musicHandler.js"
 
 var world = new Map();
 var structures = new Map();
