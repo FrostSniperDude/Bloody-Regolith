@@ -1,6 +1,6 @@
-import { canMoveTo, move, removeSelfWorld } from "../../main.js";
-import { getNearest, moveTo } from "./ai.js";
-import { getFaction } from "../../factionHandler.js";
+import { canMoveTo, move, removeSelfWorld } from "../Bloody-Regolith/main.js";
+import { getNearest, moveTo } from "./Bloody-Regolith/ai.js";
+import { getFaction } from "../Bloody-Regolith/factionHandler.js";
 
 class Truck {
   constructor(x, y, faction, resource) {

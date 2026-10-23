@@ -1,4 +1,4 @@
-import { executeAction } from "../../actionExecutor.js";
+import { executeAction } from "../Bloody-Regolith/actionExecutor.js";
 
 const timeBeforeTruck = 10;
 

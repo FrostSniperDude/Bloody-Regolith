@@ -1,7 +1,7 @@
-import { Colonizer } from "../entities/colonizer.js";
-import { world, structures, terrain } from "../main.js";
-import { getNearest, getDistance } from "../entities/ai.js";
-import { City } from "../structures/city.js";
+import { Colonizer } from "./Bloody-Regolith/entities/colonizer.js";
+import { world, structures, terrain } from "./Bloody-Regolith/main.js";
+import { getNearest, getDistance } from "./Bloody-Regolith/entities/ai.js";
+import { City } from "./Bloody-Regolith/structures/city.js";
 
 class Faction {
   constructor(name, displayName, player, metal, water) {

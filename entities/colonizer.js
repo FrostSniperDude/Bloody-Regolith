@@ -1,4 +1,4 @@
-import { getFaction } from "../../factionHandler.js";
+import { getFaction } from "../Bloody-Regolith/factionHandler.js";
 import {
   world,
   terrain,
@@ -7,7 +7,7 @@ import {
   getRandomSpot,
 } from "../../main.js";
 import { moveTo, getNearest, getDistance } from "./ai.js";
-import { executeAction } from "../../actionExecutor.js";
+import { executeAction } from "../Bloody-Regolith/actionExecutor.js";
 
 class Colonizer {
   constructor(x, y, faction) {
